@@ -16,6 +16,7 @@ import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
+import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -72,7 +73,7 @@ fun BSignUp_DataLoginPart(){
             .height(200.dp)
             .fillMaxWidth()
             .padding(start = 20.dp, end = 20.dp)
-            .background(lightBlack)
+            .background(black)
     ) {
         Column (
             horizontalAlignment = Alignment.CenterHorizontally,
@@ -81,6 +82,12 @@ fun BSignUp_DataLoginPart(){
             TextField(
                 value = "Email",
                 onValueChange = {},
+                colors = TextFieldDefaults.colors(
+                    unfocusedContainerColor = lightBlack,
+                    focusedContainerColor = lightBlack,
+                    focusedTextColor = white,
+                    unfocusedTextColor = white,
+                ),
                 modifier = Modifier
                     .fillMaxWidth()
             )
@@ -90,6 +97,12 @@ fun BSignUp_DataLoginPart(){
             TextField(
                 value = "Password",
                 onValueChange = {},
+                colors = TextFieldDefaults.colors(
+                    unfocusedContainerColor = lightBlack,
+                    focusedContainerColor = lightBlack,
+                    focusedTextColor = white,
+                    unfocusedTextColor = white,
+                ),
                 modifier = Modifier
                     .fillMaxWidth()
             )
@@ -99,6 +112,12 @@ fun BSignUp_DataLoginPart(){
             TextField(
                 value = "Confirm Password",
                 onValueChange = {},
+                colors = TextFieldDefaults.colors(
+                    unfocusedContainerColor = lightBlack,
+                    focusedContainerColor = lightBlack,
+                    focusedTextColor = white,
+                    unfocusedTextColor = white,
+                ),
                 modifier = Modifier
                     .fillMaxWidth()
             )

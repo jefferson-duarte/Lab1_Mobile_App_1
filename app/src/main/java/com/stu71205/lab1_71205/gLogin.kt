@@ -18,6 +18,7 @@ import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
+import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -81,6 +82,10 @@ fun gLogin_DataLoginPart(){
             TextField(
                 value = "Email",
                 onValueChange = {},
+                colors = TextFieldDefaults.colors(
+                    unfocusedContainerColor = white,
+                    focusedContainerColor = white,
+                ),
                 modifier = Modifier
                     .fillMaxWidth()
             )
@@ -90,6 +95,10 @@ fun gLogin_DataLoginPart(){
             TextField(
                 value = "Password",
                 onValueChange = {},
+                colors = TextFieldDefaults.colors(
+                    unfocusedContainerColor = white,
+                    focusedContainerColor = white,
+                ),
                 modifier = Modifier
                     .fillMaxWidth()
             )

@@ -10,9 +10,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
 //            gLogin() // Light Gray
-            gSignUp() // White
+//            gSignUp() // White
 //            bLogin() // Light Black
-//            BSignUp() // Black
+            BSignUp() // Black
         }
     }
 }

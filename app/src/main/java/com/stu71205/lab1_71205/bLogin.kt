@@ -18,6 +18,7 @@ import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
+import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -84,6 +85,12 @@ fun bLogin_DataLoginPart(){
             TextField(
                 value = "Email",
                 onValueChange = {},
+                colors = TextFieldDefaults.colors(
+                    unfocusedContainerColor = black,
+                    focusedContainerColor = black,
+                    focusedTextColor = lightGrey,
+                    unfocusedTextColor = lightGrey,
+                ),
                 modifier = Modifier
                     .fillMaxWidth()
             )
@@ -93,6 +100,12 @@ fun bLogin_DataLoginPart(){
             TextField(
                 value = "Password",
                 onValueChange = {},
+                colors = TextFieldDefaults.colors(
+                    unfocusedContainerColor = black,
+                    focusedContainerColor = black,
+                    focusedTextColor = lightGrey,
+                    unfocusedTextColor = lightGrey,
+                ),
                 modifier = Modifier
                     .fillMaxWidth()
             )
