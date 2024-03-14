@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Surface
@@ -82,7 +83,10 @@ fun gSignUp_DataLoginPart(){
                 colors = TextFieldDefaults.colors(
                     unfocusedContainerColor = lightGrey,
                     focusedContainerColor = lightGrey,
+                    focusedIndicatorColor = Color.Transparent,
+                    unfocusedIndicatorColor = Color.Transparent,
                 ),
+                shape = RoundedCornerShape(10.dp),
                 modifier = Modifier
                     .fillMaxWidth()
             )
@@ -95,7 +99,10 @@ fun gSignUp_DataLoginPart(){
                 colors = TextFieldDefaults.colors(
                     unfocusedContainerColor = lightGrey,
                     focusedContainerColor = lightGrey,
+                    focusedIndicatorColor = Color.Transparent,
+                    unfocusedIndicatorColor = Color.Transparent,
                 ),
+                shape = RoundedCornerShape(10.dp),
                 modifier = Modifier
                     .fillMaxWidth()
             )
@@ -108,7 +115,10 @@ fun gSignUp_DataLoginPart(){
                 colors = TextFieldDefaults.colors(
                     unfocusedContainerColor = lightGrey,
                     focusedContainerColor = lightGrey,
+                    focusedIndicatorColor = Color.Transparent,
+                    unfocusedIndicatorColor = Color.Transparent,
                 ),
+                shape = RoundedCornerShape(10.dp),
                 modifier = Modifier
                     .fillMaxWidth()
             )

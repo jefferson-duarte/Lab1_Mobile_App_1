@@ -85,7 +85,10 @@ fun gLogin_DataLoginPart(){
                 colors = TextFieldDefaults.colors(
                     unfocusedContainerColor = white,
                     focusedContainerColor = white,
+                    focusedIndicatorColor = Color.Transparent,
+                    unfocusedIndicatorColor = Color.Transparent,
                 ),
+                shape = RoundedCornerShape(10.dp),
                 modifier = Modifier
                     .fillMaxWidth()
             )
@@ -98,7 +101,10 @@ fun gLogin_DataLoginPart(){
                 colors = TextFieldDefaults.colors(
                     unfocusedContainerColor = white,
                     focusedContainerColor = white,
+                    focusedIndicatorColor = Color.Transparent,
+                    unfocusedIndicatorColor = Color.Transparent,
                 ),
+                shape = RoundedCornerShape(10.dp),
                 modifier = Modifier
                     .fillMaxWidth()
             )
