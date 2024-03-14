@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.requiredSize
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -49,10 +50,11 @@ fun gSignUp() {
 @Composable
 fun gSignUp_ImgLocker(){
     Image(
-        painter = painterResource(id = R.drawable.locker),
+        painter = painterResource(id = R.drawable.locker_removebg),
         contentDescription = "Locker Imagem",
         modifier = Modifier
             .padding(top = 75.dp, bottom = 25.dp)
+            .requiredSize(110.dp)
     )
 }
 
